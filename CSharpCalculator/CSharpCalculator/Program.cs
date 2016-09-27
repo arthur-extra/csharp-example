@@ -4,6 +4,7 @@
     {
         static void Main(string[] args)
         {
+            ICalculator calc = new Calculator();
         }
     }
 }
