@@ -4,7 +4,9 @@
     {
         static void Main(string[] args)
         {
-            ICalculator calc = new Calculator();
+            ICalculator calculator = new Calculator();
+            UserInterface ui = new UserInterface(calculator);
+            ui.demo();
         }
     }
 }
